@@ -9,4 +9,4 @@ mtcars |>
     hp,
     drat
   ) |>
-  filter(cyl > 4)
+  filter(cyl > 6)

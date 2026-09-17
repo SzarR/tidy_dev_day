@@ -4,5 +4,8 @@ library(dplyr)
 mtcars |>
   select(
     cyl,
-    mpg
+    mpg,
+    disp,
+    hp,
+    drat
   )

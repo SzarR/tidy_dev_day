@@ -8,4 +8,5 @@ mtcars |>
     disp,
     hp,
     drat
-  )
+  ) |>
+  filter(cyl > 6)
